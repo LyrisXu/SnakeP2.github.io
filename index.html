@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title> SNAKE </title>
+        <link href="style/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="heading">
+                <h1 class="title">Snake</h1>
+                <div class="scores-container">
+                    <div class="realtime-container" id="rlscore">0</div>
+                    <div class="best-container" id="best">0</div>
+                </div>
+            </div>
+
+            <div class="game-container">
+                <div class="game-display">
+                    <div class="msg">
+                        <div class="msg-a"></div>
+                        <div class="msg-b"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--玩法说明-->
+            <div class="explanation">
+                <p class="game-explanation">
+                <strong class="important">How to play:</strong> 
+                Snake Battle with your friends!
+                SPACE: start a new game</br>
+                P    : pause </br>
+                F    : left turn </br>
+                J    : right turn </br>
+                ↑ ↓ ← → : direction control </br>
+                </p>
+            </div>
+
+        </div>
+
+
+
+        <script src="jquery-1.11.3.min.js"></script>
+        <script src="game.js"></script>
+    </body>
+
+</html>
